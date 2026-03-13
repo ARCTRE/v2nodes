@@ -112,8 +112,12 @@ def main():
 
     # 第二部分：抓取国家对应的链接并进行解码
     countries = [
-        "AQ", "AR", "AU", "AT", "BH", "BY", "BE", "BO", "BR", "BG",
-        "CA", "CN", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HK"
+        "AL", "AQ", "AR", "AU", "AT", "BH", "BY", "BE", "BO", "BR", "BG", "BA", "BR",
+        "CA", "CL", "CN", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HK", "KH",
+        "CR", "HR", "EC", "EG", "HU", "IS", "IN", "ID", "IE", "IL", "IT", "JP", "JO",
+        "KZ", "KW", "LV", "LT", "LU", "MY", "MT", "MX", "MD", "MA", "NL", "NG", "NO",
+        "PK", "PA", "PE", "PH", "PL", "PT", "RO", "RU", "SA", "SG", "ZA", "KR", "ES",
+        "SE", "CH", "TW", "TH", "TR", "UA", "AE", "GB", "US", "UZ", "VN"
     ]
 
     for country in countries:
